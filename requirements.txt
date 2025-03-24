@@ -1,0 +1,14 @@
+aiohttp
+ollama
+asyncio
+transformers
+huggingface-hub
+PyMuPDF
+fastapi
+pydantic
+uvicorn
+torch
+chromadb==0.3.29
+openai
+tiktoken
+python-multipart

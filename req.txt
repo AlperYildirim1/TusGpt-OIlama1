@@ -1,0 +1,175 @@
+(env) PS C:\python\vllm-gemma> pip show aiohttp ollama asyncio transformers huggingface-hub PyMuPDF fastapi pydantic uvicorn torch chromadb openai tiktoken python-multipart
+Name: aiohttp
+Version: 3.11.14
+Summary: Async http client/server framework (asyncio)
+Home-page: https://github.com/aio-libs/aiohttp
+Author:
+Author-email:
+License: Apache-2.0
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: aiohappyeyeballs, aiosignal, attrs, frozenlist, multidict, propcache, yarl
+Required-by:
+---
+Name: ollama
+Version: 0.3.3
+Summary: The official Python client for Ollama.
+Home-page: https://ollama.ai
+Author: Ollama
+Author-email: hello@ollama.com
+License: MIT
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: httpx
+Required-by:
+---
+Name: asyncio
+Version: 3.4.3
+Summary: reference implementation of PEP 3156
+Home-page: http://www.python.org/dev/peps/pep-3156/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires:
+Required-by:
+---
+Name: transformers
+Version: 4.49.0
+Summary: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+Home-page: https://github.com/huggingface/transformers
+Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)
+Author-email: transformers@huggingface.co
+License: Apache 2.0 License
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: filelock, huggingface-hub, numpy, packaging, pyyaml, regex, requests, safetensors, tokenizers, tqdm
+Required-by:
+---
+Name: huggingface-hub
+Version: 0.29.3
+Summary: Client library to download and publish models, datasets and other repos on the huggingface.co hub
+Home-page: https://github.com/huggingface/huggingface_hub
+Author: Hugging Face, Inc.
+Author-email: julien@huggingface.co
+License: Apache
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: filelock, fsspec, packaging, pyyaml, requests, tqdm, typing-extensions
+Required-by: tokenizers, transformers
+---
+Name: PyMuPDF
+Version: 1.25.4
+Summary: A high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.
+Home-page:
+Author: Artifex
+Author-email: support@artifex.com
+License: Dual Licensed - GNU AFFERO GPL 3.0 or Artifex Commercial License
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires:
+Required-by:
+---
+Name: fastapi
+Version: 0.85.1
+Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+Home-page: https://github.com/tiangolo/fastapi
+Author:
+Author-email: Sebastián Ramírez <tiangolo@gmail.com>
+License:
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: pydantic, starlette
+Required-by: chromadb
+---
+Name: pydantic
+Version: 1.10.21
+Summary: Data validation and settings management using python type hints
+Home-page: https://github.com/pydantic/pydantic
+Author:
+Author-email: Samuel Colvin <s@muelcolvin.com>
+License: MIT
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: typing-extensions
+Required-by: chromadb, fastapi, openai
+---
+Name: uvicorn
+Version: 0.34.0
+Summary: The lightning-fast ASGI server.
+Home-page: https://www.uvicorn.org/
+Author:
+Author-email: Tom Christie <tom@tomchristie.com>, Marcelo Trylesinski <marcelotryle@gmail.com>
+License: BSD-3-Clause
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: click, h11
+Required-by: chromadb
+---
+Name: torch
+Version: 2.6.0
+Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Home-page: https://pytorch.org/
+Author: PyTorch Team
+Author-email: packages@pytorch.org
+License: BSD-3-Clause
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: filelock, fsspec, jinja2, networkx, setuptools, sympy, typing-extensions
+Required-by:
+---
+Name: chromadb
+Version: 0.3.29
+Summary: Chroma.
+Home-page: https://github.com/chroma-core/chroma
+Author:
+Author-email: Jeff Huber <jeff@trychroma.com>, Anton Troynikov <anton@trychroma.com>
+License:
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: clickhouse-connect, duckdb, fastapi, hnswlib, numpy, onnxruntime, overrides, pandas, posthog, pulsar-client, pydantic, requests, tokenizers, tqdm, typing-extensions, uvicorn
+Required-by:
+---
+Name: openai
+Version: 1.66.3
+Summary: The official Python library for the openai API
+Home-page: https://github.com/openai/openai-python
+Author:
+Author-email: OpenAI <support@openai.com>
+License:
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: anyio, distro, httpx, jiter, pydantic, sniffio, tqdm, typing-extensions
+Required-by:
+---
+Name: tiktoken
+Version: 0.9.0
+Summary: tiktoken is a fast BPE tokeniser for use with OpenAI's models
+Home-page: https://github.com/openai/tiktoken
+Author: Shantanu Jain
+Author-email: shantanu@openai.com
+License: MIT License
+
+Copyright (c) 2022 OpenAI, Shantanu Jain
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires: regex, requests
+Required-by:
+---
+Name: python-multipart
+Version: 0.0.20
+Summary: A streaming multipart parser for Python
+Home-page: https://github.com/Kludex/python-multipart
+Author:
+Author-email: Andrew Dunham <andrew@du.nham.ca>, Marcelo Trylesinski <marcelotryle@gmail.com>
+License:
+Location: C:\python\vllm-gemma\env\Lib\site-packages
+Requires:
+Required-by:
