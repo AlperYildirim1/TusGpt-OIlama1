@@ -70,7 +70,7 @@ async def get_response(chunks, chunk_start, chunk_end):
         print(full_text)
 
         # Initialize Ollama async client
-        client = AsyncClient(host="http://localhost:11434")  # Ollama's default local server
+        client = AsyncClient(host="http://93.127.138.13:11434")  # Ollama's default local server
         
         start_time = time.time()
         
